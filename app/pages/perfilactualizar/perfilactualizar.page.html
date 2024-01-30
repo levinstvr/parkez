@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/listar"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Actualizar Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="stacked">Nombre de usuario</ion-label>
+    <ion-input [(ngModel)]="usuario.username" disabled></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Rol</ion-label>
+    <ion-input [(ngModel)]="usuario.role" disabled></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="usuario.password"></ion-input>
+  </ion-item>
+
+  
+  <ion-item *ngIf="usuario.role === 'profesor'">
+    <ion-label position="stacked">seccion</ion-label>
+    <ion-input [(ngModel)]="usuario.profesorData.seccion"></ion-input>
+
+    <ion-label position="stacked">sede</ion-label>
+    <ion-input [(ngModel)]="usuario.profesorData.sede"></ion-input>
+
+    <ion-label position="stacked">rut</ion-label>
+    <ion-input [(ngModel)]="usuario.profesorData.rut"></ion-input>
+  </ion-item>
+
+  
+  <ion-item *ngIf="usuario.role === 'alumno'">
+    <ion-label position="stacked">rut</ion-label>
+    <ion-input [(ngModel)]="usuario.alumnoData.rut"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="ActualizarUsuario()">Actualizar</ion-button>
+</ion-content>

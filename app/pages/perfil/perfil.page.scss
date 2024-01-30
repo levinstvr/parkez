@@ -1,0 +1,47 @@
+/* Agrega estilos globales si es necesario */
+ion-content {
+    --ion-background-color: #f4f4f4;
+  }
+  
+  ion-toolbar {
+    --ion-background-color: #2c3e50;
+    --color: #ffffff;
+  }
+  
+  ion-card {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  ion-item {
+    margin-bottom: 10px;
+  }
+  
+  ion-button {
+    margin: 15px;
+  }
+  
+  /* Estilos específicos para el botón de actualizar */
+  ion-button[color="warning"] {
+    --background: #e67e22;
+    --border-color: #e67e22;
+  }
+  
+  ion-button[color="warning"]:hover {
+    --background: #d35400;
+    --border-color: #d35400;
+  }
+  
+  /* Estilos específicos para el botón de listar */
+  ion-button[color="success"] {
+    --background: #2ecc71;
+    --border-color: #2ecc71;
+  }
+  
+  ion-button[color="success"]:hover {
+    --background: #27ae60;
+    --border-color: #27ae60;
+  }

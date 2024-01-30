@@ -1,0 +1,108 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "felo",
+      "role": "conductor",
+      "password": "holaperro",
+      "isactive": true,
+      "profesorData": {
+        "seccion": "apy2323",
+        "sede": "antonip varas",
+        "rut": "20999999-0"
+      }
+    },
+    {
+      "username": "elking",
+      "password": "kjgo1212",
+      "role": "alumno",
+      "isactive": true,
+      "email": "",
+      "profesorData": {
+        "seccion": "",
+        "sede": "",
+        "fecha": ""
+      },
+      "alumnoData": {
+        "rut": "232323232-4"
+      },
+      "id": 2
+    },
+    {
+      "username": "levin",
+      "password": "kjgo1212",
+      "role": "alumno",
+      "isactive": true,
+      "email": "",
+      "profesorData": {
+        "seccion": "",
+        "sede": "",
+        "fecha": ""
+      },
+      "alumnoData": {
+        "rut": "23000323-2"
+      },
+      "id": 3
+    },
+    {
+      "username": "julioprofe",
+      "password": "kjgo1212",
+      "role": "profesor",
+      "isactive": true,
+      "email": "",
+      "profesorData": {
+        "seccion": "sds-1212",
+        "sede": "antonio varas",
+        "fecha": ""
+      },
+      "alumnoData": {
+        "rut": ""
+      },
+      "id": 4
+    },
+    {
+      "username": "julioalum",
+      "password": "kjgo1212",
+      "role": "alumno",
+      "isactive": true,
+      "email": "",
+      "profesorData": {
+        "seccion": "",
+        "sede": "",
+        "fecha": ""
+      },
+      "alumnoData": {
+        "rut": "23000000-2"
+      },
+      "id": 5
+    },
+    {
+      "username": "sasasa",
+      "password": "asasas",
+      "role": "dueno",
+      "isactive": true,
+      "email": "asasas",
+      "profesorData": {
+        "seccion": "",
+        "sede": "",
+        "fecha": ""
+      },
+      "alumnoData": {
+        "rut": ""
+      },
+      "id": 6
+    }
+  ],
+  "palabras": [
+    {
+      "id": 1,
+      "username": "cachupin",
+      "palabra": "Duoc maipu"
+    },
+    {
+      "username": "cachupina",
+      "palabra": "Hakuna matata",
+      "id": 2
+    }
+  ]
+}

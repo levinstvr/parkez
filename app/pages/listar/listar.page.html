@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="end">
+      
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-button style="margin:15px" [routerLink]="['/perfil', numero]"> Perfil</ion-button>
+
+  <ion-button (click)="cerrarSesion()" color="warning" shape="round">
+    Cerrar Sesión
+  </ion-button>
+  
+</ion-content>

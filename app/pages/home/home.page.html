@@ -1,0 +1,52 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="header-title">
+      Parkez
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" class="welcome-message">
+        <h1>Bienvenido a Parkez</h1>
+        <p>¡La aplicación que facilita tu experiencia de estacionamiento!</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button (click)="[]" color="light" expand="block" class="custom-button">Arrendar</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button (click)="[]" color="success" expand="block" class="custom-button">Buscar</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button [routerLink]="['/info']" color="primary" expand="block" class="custom-button">
+          Información
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button [routerLink]="['/metodo-pago']" color="primary" expand="block" class="custom-button">
+          Añadir Método de Pago
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button (click)="cerrarSesion()" color="warning" expand="block" class="custom-button">
+          Cerrar Sesión
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
